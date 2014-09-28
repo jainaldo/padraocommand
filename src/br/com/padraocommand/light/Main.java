@@ -14,6 +14,9 @@ public class Main {
 		controle.exercutarComando(ligar);
 		controle.exercutarComando(desligar);
 		controle.exercutarComando(ligar);
+		
+		System.out.println("\n");
+		
 		System.out.println("DESFAZENDO OS CAMANDOS");
 		controle.desfazerComando(ligar);
 		controle.desfazerComando(desligar);
